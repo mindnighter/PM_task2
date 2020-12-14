@@ -1,12 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 20px;
-}
-h2{
-  font-size: 40px;
-}
 .gridcontainer{
   margin: 20px;
   padding: 20px;
@@ -27,22 +18,4 @@ h2{
 .bottom{
   grid-area: bottom;
   text-align: right;
-}
-img{
-  float:left;
-  margin: 0px 20px 20px 0px;
-  border: 2px solid #000000;
-  height: auto;
-  width: 30%;
-  min-height: 130px;
-  max-height: 250px;
-  min-width: 250px;
-  max-width: 450px;
-}
-.bottom > a{
-  text-decoration: none;
-  color:#0000ff
-}
-.top, .content, .bottom{
-  margin: 20px;
 }
